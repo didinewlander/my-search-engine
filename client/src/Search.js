@@ -12,7 +12,6 @@ function Search() {
             navigate('/results', { state: { query } })
         }
     }
-
     return (
         <div>
             <form onSubmit={handleSearch}>
